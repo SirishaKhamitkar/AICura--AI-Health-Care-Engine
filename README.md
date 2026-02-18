@@ -101,10 +101,6 @@ SVM achieves superior performance for diabetes risk classification across all ev
 ROC curves illustrate the trade-off between True Positive Rate and False Positive Rate.  
 Higher AUC values indicate stronger class separation and robustness.
 
-docs/
-├── roc_heart_disease.png
-├── roc_liver_disease.png
-└── roc_diabetes.png
 
 
 ### Confusion Matrices
@@ -114,15 +110,15 @@ Confusion matrices provide insight into false positives and false negatives, whi
 
 ## 🏗 System Architecture (Production-Oriented)
 
-Client (Browser)
+|Client (Browser)|
 ↓
-Django Backend (Routing, Auth, Business Logic)
+|Django Backend (Routing, Auth, Business Logic)|
 ↓
-ML Inference Layer (SVM / KNN)
+|ML Inference Layer (SVM / KNN)|
 ↓
-Persistence Layer (SQLite)
+|Persistence Layer (SQLite)|
 ↓
-Notification & Scheduling Engine
+|Notification & Scheduling Engine|
 
 
 ### Architecture Highlights
