@@ -6,20 +6,6 @@ This project emphasizes **end-to-end ML engineering** — from data preprocessin
 
 ---
 
-## 🎯 What This Project Demonstrates (For AI / ML Recruiters)
-
-This project showcases my ability to:
-
-- Design and implement **ML pipelines for structured healthcare data**
-- Select models based on **data characteristics and evaluation results**
-- Perform **quantitative model comparison** using appropriate metrics
-- Integrate ML inference into a **production-style backend**
-- Apply **engineering judgment** instead of algorithm chasing
-- Build systems with **clear separation of concerns**
-- Think beyond accuracy toward **ethics, usability, and scalability**
-
----
-
 ## 🧠 Core Machine Learning Capabilities
 
 ### Disease Risk Prediction (Binary Classification)
@@ -123,12 +109,6 @@ docs/
 
 ### Confusion Matrices
 Confusion matrices provide insight into false positives and false negatives, which is critical in healthcare-related ML systems.
-
-docs/
-├── cm_heart_disease.png
-├── cm_liver_disease.png
-└── cm_diabetes.png
-
 
 ---
 
